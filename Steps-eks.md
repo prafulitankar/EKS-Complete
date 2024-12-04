@@ -67,6 +67,8 @@ eksctl create cluster --name=my-eks22 \
                       --version=1.30 \
                       --without-nodegroup
 
+Example : # eksctl create cluster --name=prft-blog-k8s-cluster --region=ap-south-1 --zones=ap-south-1a,ap-south-1b --node-type t2.medium
+
 eksctl utils associate-iam-oidc-provider \
     --region ap-south-1 \
     --cluster my-eks22 \
